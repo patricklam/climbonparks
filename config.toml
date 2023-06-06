@@ -1,0 +1,31 @@
+baseURL = 'https://climbonparks.ca/'
+languageCode = 'en-ca'
+title = "Save Devil's Glen"
+theme = "freelancer"
+
+[params]
+  tagLine = "Allow climbing in Ontario Parks"
+  homePosts = 3
+  homeProjects = 3
+
+  aboutLeft = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization."
+  aboutRight = "You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!"
+
+[params.sbform]
+      token = ""
+
+[params.homebutton]
+  text = "Ontario Alliance of Climbers"
+  link = "https://ontarioallianceofclimbers.ca"
+  icon = "fa-house"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'tags'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 10
