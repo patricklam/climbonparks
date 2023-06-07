@@ -8,7 +8,7 @@ theme = "freelancer"
   homePosts = 3
   homeProjects = 3
 
-  aboutLeft = "We at the Ontario Alliance of Climbers are asking for the community's help to help change the law about climbing in Ontario Parks."
+  aboutLeft = "We at the Ontario Alliance of Climbers are asking for the community's help to change the law about climbing in Ontario Parks."
   aboutRight = "Write your own letter to David Piccini, Ontario's Minister of Environment, Conservation and Parks and your local Member of Provincial Parks, or use our form letter (coming soon)."
 
 [params.sbform]
