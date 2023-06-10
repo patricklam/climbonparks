@@ -58,3 +58,18 @@ div.introContent{
     display:none;
     font-size: 10px;
 }
+
+.page-section {
+    padding-top: 0;
+  }
+  
+  .page-section .page-section-heading {
+    font-size: 0;
+    line-height: 1rem;
+  }
+
+  .masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
