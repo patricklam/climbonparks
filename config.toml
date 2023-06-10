@@ -4,16 +4,13 @@ title = "Climb In Parks"
 theme = "freelancer"
 
 [params]
-  tagLine = "Allow climbing in Ontario Parks"
+  tagLine = "Allow climbing in Ontario Parks!"
+
   homePosts = 3
   homeProjects = 3
 
   aboutLeft = "The Ontario Alliance of Climbers (OAC) is a volunteer non-profit organization that works in collaboration with stakeholders to steward access to outdoor rock climbing."
   aboutRight = "The #SaveClimbingAtDG campaign is an OAC initiative advocating for climbing on our public lands."
-
-  aboutLeftOld = "We at the Ontario Alliance of Climbers are asking for the community's help to change the law about climbing in Ontario Parks."
-  aboutRightOld = "Write your own letter to David Piccini, Ontario's Minister of Environment, Conservation and Parks and your local Member of Provincial Parliament, or use our form letter (coming soon)."
-
 
 [params.sbform]
       token = ""

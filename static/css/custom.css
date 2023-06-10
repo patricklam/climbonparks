@@ -7,8 +7,6 @@
     --bs-danger-rgb: 211, 178, 84;
 }
 
-
-
 .navbar-toggler {
     display:none;
 }
@@ -19,4 +17,22 @@ div.maincontent{
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
+}
+
+div.introContent{
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:medium;
+    font-weight: 100;
+    letter-spacing:1px;
+    line-height: 150%;
+    text-align: left;
+  }
+
+.copyright {
+    background-color: #335962;
+    font-size: x-small;
 }
