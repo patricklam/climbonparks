@@ -48,6 +48,7 @@ div.introContent{
     outline: none;
     font-size:medium;
     font-weight: 700;
+    transition: 0.3s;
 }
 
 .collapsible:hover {
@@ -73,3 +74,55 @@ div.introContent{
     padding-bottom: 0;
     margin-bottom: 0;
   }
+
+/* Customize the Action Network embedded widgets*/
+
+/* Remove the Action Network Logo */
+.can_embed #logo_wrap {
+	display: none !important;
+}
+
+/* Change link color */
+.can_embed #can_embed_form a,
+.can_embed #donate_auto_modal a {
+	color: #54C3BB !important;
+}
+
+/* Button Background Color */
+.can_embed .can_button,
+.can_embed #can_embed_form input[type="submit"],
+.can_embed #can_embed_form .button,
+.can_embed #donate_auto_modal input[type="submit"],
+.can_embed #donate_auto_modal .button {
+	background-color: #C48A2C !important;
+}
+
+/* Button Background Color on Hover */
+.can_embed .can_button:hover,
+.can_embed #can_embed_form input[type="submit"]:hover,
+.can_embed #can_embed_form .button:hover,
+.can_embed #donate_auto_modal input[type="submit"]:hover,
+.can_embed #donate_auto_modal .button:hover {
+	background-color: #D3B254 !important;
+}
+
+/* Thank You Page Header Background Color */
+.can_embed #can_embed_form #can_thank_you,
+.can_embed #donate_auto_modal #can_thank_you {
+	background-color: #54C3BB !important;
+}
+
+/* Thank You Page Header Text Color */
+.can_embed #can_embed_form #can_thank_you,
+.can_embed #donate_auto_modal #can_thank_you,
+.can_embed #can_embed_form #can_thank_you h1,
+.can_embed #donate_auto_modal #can_thank_you h1,
+.can_embed #can_embed_form #can_thank_you h4,
+.can_embed #donate_auto_modal #can_thank_you h4,
+.can_embed #can_embed_form #can_thank_you #action_info .action_info_user,
+.can_embed #donate_auto_modal #can_thank_you #action_info .action_info_user,
+.can_embed #can_embed_form #can_thank_you #action_info .action_info_user a,
+.can_embed #donate_auto_modal #can_thank_you #action_info .action_info_user a {
+	color: black !important;
+}
+
