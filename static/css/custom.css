@@ -1,3 +1,14 @@
+:root {
+    --bs-primary-rgb: 29, 51, 65;
+    --bs-secondary-rgb: 196, 138, 44;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 84, 195, 87;
+    --bs-warning-rgb: 211, 178, 84;
+    --bs-danger-rgb: 211, 178, 84;
+}
+
+
+
 .navbar-toggler {
     display:none;
 }
