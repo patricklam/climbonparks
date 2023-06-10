@@ -36,3 +36,25 @@ div.introContent{
     background-color: #335962;
     font-size: x-small;
 }
+
+.collapsible {
+    background-color: #D3B254;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size:medium;
+    font-weight: 700;
+}
+
+.collapsible:hover {
+    background-color: #C48A2C;
+  }
+
+.startHidden {
+    display:none;
+    font-size: 10px;
+}
