@@ -85,6 +85,16 @@ div.introContent{
     margin-bottom: 0;
   }
 
+@media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 /* Customize the Action Network embedded widgets*/
 
 /* Remove the Action Network Logo */
