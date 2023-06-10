@@ -37,6 +37,17 @@ div.introContent{
     font-size: x-small;
 }
 
+.btn-outline-light {
+  color: #D3B254;
+  border-color: #D3B254;
+}
+
+.btn-outline-light:hover {
+  color: #fff;
+  background-color: #C48A2C;
+  border-color: #C48A2C;
+}
+
 .collapsible {
     background-color: #D3B254;
     color: #444;
