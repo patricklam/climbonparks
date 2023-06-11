@@ -37,6 +37,15 @@ div.introContent{
     font-size: x-small;
 }
 
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #C48A2C;
+}
+  
+  .divider-custom.divider-light .divider-custom-icon {
+    color: #C48A2C;
+}
+  
+
 .btn-outline-light {
   color: #D3B254;
   border-color: #D3B254;
