@@ -37,6 +37,10 @@ div.introContent{
     font-size: x-small;
 }
 
+.smallError {
+    font-size:small !important;
+}
+
 .divider-custom.divider-light .divider-custom-line {
     background-color: #C48A2C;
 }
