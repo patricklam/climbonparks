@@ -10,7 +10,7 @@ theme = "freelancer"
   homeProjects = 3
 
   aboutLeft = "The Ontario Alliance of Climbers (OAC) is a volunteer non-profit organization that works in collaboration with stakeholders to steward access to outdoor rock climbing."
-  aboutRight = "The #SaveClimbingAtDG campaign is an OAC initiative advocating for climbing on our public lands. For more details about climbing in Ontario, see our website below."
+  aboutRight = "The #SaveOntarioClimbing campaign is an OAC initiative advocating for climbing on our public lands. For more details about climbing in Ontario, see our website below."
 
 [params.sbform]
       token = ""
