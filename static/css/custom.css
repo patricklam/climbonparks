@@ -79,6 +79,24 @@ div.introContent{
     background-color: #C48A2C;
   }
 
+.collapsible-style-only {
+    background-color: #D3B254;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size:medium;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.collapsible-style-only:hover {
+    background-color: #C48A2C;
+  }
+
 .startHidden {
     display:none;
     font-size: 10px;

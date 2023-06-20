@@ -85,21 +85,59 @@ div.maincontent{
     <div class="content mainContent startHidden introContent" id="ownEmail">
       <p></p>
       <p>We've provided a tool to make it as easy as possible for you to send a letter to the government officials with the power to allow climbing in Ontario parks.  However, letters will have a greater effect if they are not all identical.</p>
-      <p><a href="https://www.ontarioallianceofclimbers.ca/wp-content/uploads/2023/06/SaveClimbingAtDG_Letter-from-community.pdf" target="_blank">Click here</a> to download our prewritten letter.  Copy and paste it to send directly from your own email -- and edit it as you see fit!</p>
+      <p><a href="https://www.ontarioallianceofclimbers.ca/wp-content/uploads/2023/06/SaveClimbingAtDG_Letter-from-community.pdf" target="_blank">Click here</a> to download our prewritten letter.  Copy and paste it to send directly from your own email&mdash;and edit it as you see fit! Or, use the button here to copy our prewritten text into your clipboard, then edit it and send it.</p>
+      <button type="button" class="collapsible-style-only mt-3" onClick="copyIntoClipboard()">Click to copy the letter text into your clipboard</button>
+      <p></p>
       <h5>Please CC us!</h5> 
       <p>It will help us keep track of how many letters have been sent.
         We're also looking at raffling off prizes to individuals taking part in the campaign, and CCing us is your proof of participation!</p>
-      <p>Please CC us at <a href="climbinparks@ontarioallianceofclimbers.ca">climbinparks@ontarioallianceofclimbers.ca</a>.</p>
+      <p>Please CC us at <a href="mailto:climbinparks@ontarioallianceofclimbers.ca">climbinparks@ontarioallianceofclimbers.ca</a>.</p>
       <h5>To contact David Piccini:</h5>
-      <p>Please copy and paste the letter below and send it from your personal email. David Piccini can be reached at: <a href="mailto:david.piccinico@pc.ola.org">david.piccinico@pc.ola.org</a>.</p>
+      <p>Please copy and paste the prewritten letter (you can use the button above) and send it from your personal email. David Piccini can be reached at: <a href="mailto:david.piccinico@pc.ola.org?cc=climbinparks@ontarioallianceofclimbers.ca&subject=Allow%20Climbing%20at%20Ontario%20Provincial%20Parks">david.piccinico@pc.ola.org</a>.</p>
       <h5>To contact your MPP:</h5>
       <p>Your MPP is determined by your home address. If you live in Ontario, you'll see below that we've identified your MPP based off of your Postal Code. If you'd like to email your MPP from your own email, you may find the contact information for your MPP here: <a href="https://www.ola.org/en/members/current/contact-information">https://www.ola.org/en/members/current/contact-information</a></p>
     </div>
   </div>
 </section>
 
+<div class="startHidden" id="letterText">Dear Minister Piccini,
+
+I am contacting you in the wake of recent climbing closures at Devil’s Glen Provincial Park.
+Access and the ability to rock climb in our provincial parks is important to me and my
+community.
+
+I am asking for your support in allowing rock climbing within our provincial parks, and thereby
+realizing the benefits that rock climbing can bring to our province.
+● Rock climbing is a rapidly growing sport, with thousands of Ontarians participating
+● Rock climbing boosts tourism, supports local economies, and is a growing industry in our province
+● Rock climbing and ecological interests are aligned, and proper management plans cultivate conservation
+● Rock climbing is a safe and fun part of a healthy lifestyle, benefiting both physical and mental health
+
+Rock climbing has occurred at areas like Devil’s Glen and Lion’s Head for over 50 years, yet climbing management plans are not in place. As a result, there is ineffective and inconsistent management of climbing, resulting in lost opportunities for tourism, recreation, stakeholder engagement, and collaborative conservation.
+
+My ask is that Section 11 of Ontario Regulation 347/07: Provincial Parks: General Provisions be changed to allow rock climbing and to mandate that parks formulate management plans to allow climbing.
+
+The Ontario Alliance of Climbers (OAC) is a volunteer non-profit organization that works in collaboration with stakeholders to steward access to outdoor rock climbing.
+
+I would like the Ministry of Environment, Conservation and Parks to work in collaboration with the OAC to develop provincial climbing management plans and open Ontario Parks to rock climbing.
+
+By doing this you will allow Ontarians and visitors to recreationally rock climb in our provincial parks, contribute to Ontario’s economy, and be partners in ecological conservation.
+
+Sincerely,
+[Name]
+[City/Town]
+</div>
 
 <script>
+  function copyIntoClipboard() {
+      var letterText = document.getElementById('letterText').innerHTML;
+      navigator.clipboard.writeText(letterText).then(() => {
+        console.log('Content copied to clipboard');
+      },() => {
+        console.error('Failed to copy');
+      });
+  }
+
   var coll = document.getElementsByClassName("collapsible");
   var i;
   
