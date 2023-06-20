@@ -69,10 +69,10 @@ div.maincontent{
       <p>Note: Do NOT include links to other sites, some officials may filter out emails which contain external links.</p>
     </div>
 
-    <p></p>
+    <p><a id="notInOntario"></a></p>
 
-    <button type="button" class="collapsible mt-3">Click to expand for instructions if you do not live in Ontario</button>
-    <div class="content mainContent startHidden introContent">
+    <button type="button" class="collapsible mt-3" onClick="document.getElementById('ownEmail').style.display = 'block'">Click to expand for instructions if you do not live in Ontario</button>
+    <div class="content mainContent startHidden introContent" id="outsideOntario">
       <p></p>
       <p>If you do not live in Ontario, you will not have an MPP who represents you, but you can still email David Piccini!</p>
       <p>Our widget does not work with non-Ontario addresses, but you can follow the instructions below to send directly from your own email. Thank you for your support!</p>
@@ -82,7 +82,7 @@ div.maincontent{
     <p></p>
 
     <button type="button" class="collapsible mt-3">Click to expand for details on how to send a letter from your own email</button>
-    <div class="content mainContent startHidden introContent">
+    <div class="content mainContent startHidden introContent" id="ownEmail">
       <p></p>
       <p>We've provided a tool to make it as easy as possible for you to send a letter to the government officials with the power to allow climbing in Ontario parks.  However, letters will have a greater effect if they are not all identical.</p>
       <p><a href="https://www.ontarioallianceofclimbers.ca/wp-content/uploads/2023/06/SaveClimbingAtDG_Letter-from-community.pdf" target="_blank">Click here</a> to download our prewritten letter.  Copy and paste it to send directly from your own email -- and edit it as you see fit!</p>
