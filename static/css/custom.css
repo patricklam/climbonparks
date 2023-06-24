@@ -84,9 +84,8 @@ div.introContent{
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size:medium;
     font-weight: 700;
