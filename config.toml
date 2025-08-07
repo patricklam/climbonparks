@@ -4,7 +4,7 @@ title = "Climb In Parks"
 theme = "freelancer"
 
 [params]
-  tagLine = "Allow climbing in Ontario Parks!"
+  tagLine = "Approve climbing in Ontario Parks!"
 
   homePosts = 3
   homeProjects = 3
